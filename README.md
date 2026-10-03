@@ -89,9 +89,29 @@ SMOTE was also evaluated to investigate its effect on the minority cancellation 
 
 ## Project Structure
 
-```text
+text
 6001CMD-Hotel-Booking-Machine-Learning/
 │
 |-- README.md
 │
 |-- Hotel_Booking_ML_Analysis.ipynb
+
+## Key Findings
+
+The exploratory data analysis identified several data quality issues, including missing values, duplicate records, highly skewed numerical variables, extreme values, invalid ADR values and class imbalance.
+
+The preprocessing stage addressed these issues through duplicate removal, missing-value imputation, invalid-value treatment, feature engineering, numerical standardisation, categorical encoding and evaluation of class balancing using SMOTE.
+
+The final cleaned modelling dataset contains 87,133 records and 32 variables, with no remaining missing values or duplicate records.
+
+## Reproducibility
+
+The analysis was conducted using Python in Jupyter Notebook. The notebook contains the complete sequence of exploratory data analysis, data cleaning, transformation, feature engineering, preprocessing and model evaluation.
+
+The dataset can be obtained from the Kaggle source documented in the `Dataset/README.md` file.
+
+## Repository Contents
+
+- `README.md` – Project overview and methodology
+- `Dataset/README.md` – Dataset source and information
+- `Hotel_Booking_ML_Analysis.ipynb` – Complete Python analysis and machine learning notebook
